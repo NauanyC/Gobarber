@@ -1,9 +1,12 @@
 import * as React from "react";
+import GlobalStyles from "./styles/global";
 
 const App: React.FC = () => (
   <div className="App">
-    <header className="App-header">Wow, header!</header>
-    <div>Not a header though.</div>
+    <GlobalStyles />
+    <div>
+      <div>Hi!</div>
+    </div>
   </div>
 );
 
